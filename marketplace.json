@@ -1,0 +1,12 @@
+{
+  "name": "brand-ai-readiness-audit",
+  "version": "2.0.0",
+  "skills": [
+    { "id": "audit-orchestrator", "path": "skills/audit-orchestrator", "entrypoint": true },
+    { "id": "site-discovery", "path": "skills/site-discovery" },
+    { "id": "page-classifier", "path": "skills/page-classifier" },
+    { "id": "technical-parser", "path": "skills/technical-parser" },
+    { "id": "semantic-analyzer", "path": "skills/semantic-analyzer" },
+    { "id": "engagement-evaluator", "path": "skills/engagement-evaluator" }
+  ]
+}

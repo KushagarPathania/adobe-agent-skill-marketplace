@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+*.bak
+*.old
+
+# Ad-hoc local audit output from running the CLI against a real site
+# (e.g. `python3 run_audit.py https://example.com > example-audit.json`)
+# -- never a project deliverable.
+*-audit.json
+*-audit-*.json
